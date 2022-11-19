@@ -9,6 +9,7 @@
 
 body{
     height: 100vh;
+    background-image: linear-gradient(to top, black, rgb(61, 61, 61));
 }
 
 /* Boot */
@@ -17,3 +18,69 @@ body{
 }
 
 /* Conteúdo */
+
+/* Urna */
+.urna{
+    background-color: #D3D3DF;
+    padding: 70px 50px;
+    width: 90%;
+    max-width: 1150px;
+    margin: 80px auto;
+    width: -moz-fit-content;
+    border-radius: 5px;
+    justify-content: space-between;
+    box-shadow: inset 5px 1px 15px rgba(0, 0, 0, 0.18);
+}
+
+/* Display */
+.display-w60{
+    width: 60%;
+    height: 341px;
+    background-color: white;
+}
+
+.info{
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.cargo{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+/* Dados */
+.dados{
+    width: 250px;
+}
+
+.sub-itens{
+    width: 50%;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.sub-itens input{
+    padding: 4px 5px;
+    font-size: 22px;
+    font-weight: bold;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Footer display */
+.footer-display{
+    padding: 10px;
+    border-top: 2px solid black;
+    margin-top: 10px;
+}
+
+.footer-display p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+/* Imagem */
+.sub-w50 img{
+    width: 150px;
+}
