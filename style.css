@@ -35,7 +35,7 @@ body{
 /* Display */
 .display-w60{
     width: 60%;
-    height: 341px;
+    height: 380px;
     background-color: white;
 }
 
@@ -83,4 +83,68 @@ body{
 /* Imagem */
 .sub-w50 img{
     width: 150px;
+}
+
+/* Teclado */
+.buton-w40{
+    width: 32%;
+    box-sizing: initial;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(31, 31, 31);
+}
+
+.numeric{
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 0px auto;
+}
+
+.key{
+    padding: 8px;
+    width: 33.33%;
+    margin: 0px auto;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.062);
+    border-radius: 5px;
+}
+
+.key .interkey:hover{
+    background-color: rgb(41, 41, 41);
+    cursor: pointer;
+}
+
+.key .interkey{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 13px;
+    border-radius: 5px;
+    border: ;
+}
+
+/* Ações */
+.interac{
+    justify-content: space-between;
+    margin: 20px auto 0px;
+}
+
+.valid{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 14px 5px;
+    border-radius: 5px;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.01px;
+    margin: 0px 5px;
+}
+
+.valid-2{
+    background-color: #E77233;
+}
+
+.valid-3{
+    background-color: #58B18D;
 }
